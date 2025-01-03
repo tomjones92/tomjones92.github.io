@@ -40,6 +40,15 @@ header {
 	cursor: default;
 }
 
+#date {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--color-3);
+  font-variant: small-caps;
+  letter-spacing: var(--letter-space);
+}
+
 
 #next-prev a, span {
 	font-family: var(--font);
