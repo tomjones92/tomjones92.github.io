@@ -49,7 +49,6 @@ header {
   letter-spacing: var(--letter-space);
 }
 
-
 #next-prev a, span {
 	font-family: var(--font);
 	color: var(--color-3);
