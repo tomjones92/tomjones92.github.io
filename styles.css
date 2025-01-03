@@ -1,6 +1,6 @@
 :root {
 	--color-1: cyan;
-	--color-2: lightskyblue;
+	--color-2: DarkSlateGray;
 	--color-3: navy;
 	--color-4: lightsalmon;
 	--font: Garamond, serif;
@@ -44,7 +44,7 @@ header {
   font-family: var(--font);
   font-size: 16px;
   font-weight: normal;
-  color: var(--color-3);
+  color: var(--color-2);
   font-variant: small-caps;
   letter-spacing: var(--letter-space);
 }
