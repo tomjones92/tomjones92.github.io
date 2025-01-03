@@ -1,0 +1,163 @@
+:root {
+	--color-1: cyan;
+	--color-2: lightskyblue;
+	--color-3: navy;
+	--color-4: lightsalmon;
+	--font: Garamond, serif;
+	--letter-space: 6px;
+}
+
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* remove at end 
+	border: dotted 1px lightgreen;
+	/* ------------- */
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+main {
+	padding: 4px 10px;
+}
+
+header {
+	/* position: fixed; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0 0 1px 1px;
+	align-items: baseline;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	cursor: default;
+}
+
+
+#next-prev a, span {
+	font-family: var(--font);
+	color: var(--color-3);
+	letter-spacing: var(--letter-space);
+}
+
+#next-prev a:hover {
+	color: var(--color-1);
+	cursor: pointer;
+}
+
+#next-prev a:active {
+	color: var(--color-4);
+}
+
+#seperate {
+	padding: 0 10px 0 16px;
+}
+
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* Artwork */
+.artwork-86b01f4e1521 {
+  position: relative;
+  width: 1200px;
+  height: calc(100vh - 30px);
+  background: #FFFFFF;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Assets */
+.assets-86a8ad08c8bc {
+  position: absolute;
+  left: 33px;
+  top: 82px;
+  width: 867px;
+  height: 584px;
+}
+
+/* star */
+.star-868ac68ee45e > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.star-868ac68ee45e {
+  position: absolute;
+  left: 0px;
+  top: 483px;
+  width: 44px;
+  height: 47px;
+  border-radius: 0px;
+}
+
+/* gun-dog */
+.gundog-868ac68c7848 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.gundog-868ac68c7848 {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  width: 347px;
+  height: 476px;
+  border-radius: 0px;
+}
+
+/* dog */
+.dog-868ac68b8550 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.dog-868ac68b8550 {
+  position: absolute;
+  left: 319px;
+  top: 412px;
+  width: 307px;
+  height: 172px;
+  border-radius: 0px;
+}
+
+/* home */
+.home-868ac689bc85 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.home-868ac689bc85 {
+  position: absolute;
+  left: 473px;
+  top: 21px;
+  width: 394px;
+  height: 324px;
+  border-radius: 0px;
+}
+
+/* Rectangle 1 */
+.rectangle-868ac68883bb > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-33px,-33px);
+}
+.rectangle-868ac68883bb {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1000px;
+  height: 705px;
+  border-radius: 0px;
+}
