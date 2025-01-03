@@ -1,6 +1,8 @@
 $( document ).ready(function() {
     var pageList = [
-    'index.html'
+    'index.html',
+    'test1.html',
+    'test2.html',
 ];
 
     current=$(location).attr('pathname').substr($(location).attr('pathname').lastIndexOf("/")+1); // get current page: just last part - page name and extension
